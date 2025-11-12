@@ -1,6 +1,10 @@
 # Snapchat Memories Downloader
 
-A Python script for downloading all memories from your Snapchat data export. I made this after struggling with Snapchat's provided solution which is (intentionally?) terrible. 
+A Python script for downloading all memories from your Snapchat data export. I made this after struggling with Snapchat's provided solution which is (intentionally?) terrible.
+
+<img width="1142" height="169" alt="image" src="https://github.com/user-attachments/assets/318f14fc-6172-4fef-8993-46e148452984" />
+<img width="1134" height="174" alt="image" src="https://github.com/user-attachments/assets/340d6758-4818-4613-a1bd-8e1654019de1" />
+
 
 ## Summary of Improvements Compared to Basic Snapchat Export
 
@@ -45,14 +49,16 @@ A Python script for downloading all memories from your Snapchat data export. I m
 
 ## Requirements
 
-- Python 3
-- Exiftool installed and accessible in path (if you open a CMD/terminal and enter `exiftool` it shouldn't say it doesn't exist)
+- [Python 3](https://www.python.org/) - I am using 3.13.7 but I think any recent ish version should be fine
+- [Exiftool](https://exiftool.org/) installed and accessible in path (if you open a CMD/terminal and enter `exiftool` it shouldn't say it doesn't exist)
 
 
 ## Setup
 
 1. Export your Snapchat memories from the Snapchat desktop website.
 2. Place the files from this repo (the two .py files and requirements.txt) in the root folder (MYDATA~xxxxxx).
+<img width="628" height="170" alt="Screenshot 2025-11-11 at 10 34 28 PM" src="https://github.com/user-attachments/assets/8c60d2eb-b3ca-44ed-b216-772b5ccb9676" />
+
 3. Install required Python packages.
 
 ```bash
